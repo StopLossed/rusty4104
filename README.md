@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @rusty4104
+- 👋 Hi, I’m Russ
 - 👀 I’m interested in python data science and android development.
 - 🌱 I’m currently learning python and data science
 - 💞️ I’m looking to collaborate on interesting python projects.
