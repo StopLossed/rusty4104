@@ -1,0 +1,22 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+config/name="CrossSection Survival Prototype"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.2")
+
+[autoload]
+BaseManager="*res://scripts/systems/base_manager.gd"
+SurfaceSimulation="*res://scripts/systems/surface_simulation.gd"
+SurvivorManager="*res://scripts/systems/survivor_manager.gd"
+EventSystem="*res://scripts/systems/event_system.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+renderer/rendering_method="forward_plus"
